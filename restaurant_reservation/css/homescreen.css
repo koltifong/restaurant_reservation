@@ -1,0 +1,170 @@
+*{
+    font-family: 'Amatic SC';
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    letter-spacing: 1px;
+    font-size: larger;
+}
+
+body {
+    margin: 0%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    width: 100%;
+    justify-content: space-between;
+}
+
+h2{
+    font-weight:bolder ;
+}
+
+h5{
+    font-weight:700 ;
+}
+
+header .logo-name {
+    display: flex;
+    padding: 2%;
+}
+
+header .logo-name #logo{
+    justify-content: center;
+    font-weight: bolder;
+}
+
+header .nav-bar {
+    display: flex;
+    align-items: center;
+    padding-right: 3%;
+}
+
+header .nav-bar div .nav-row {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+header .nav-bar div .nav-row .nav-link {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+header .nav-bar div .nav-row .nav-link a {
+    text-decoration: none;
+}
+
+header #logo {
+    padding-left: 3%;
+}
+
+header #booking {
+    padding-right: 3%;
+}
+
+#home {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(229, 229, 229);
+}
+
+#home .home-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    font-weight: 500;
+}
+
+#home .home-text .inside-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#home .home-text .inside-text .home-bar {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 2%;
+}
+
+/* #home .home-text .inside-text .home-bar .home-link a {
+    text-decoration: none;
+}  */
+
+#home .home-picture {
+    width: 50%;
+}
+
+#home .home-picture .inside-picture {
+    display: flex;
+}
+
+#menu{
+    text-align: center;
+}
+
+.view-list {
+    width: 99%;
+    text-align: center;
+}
+
+#hall{
+    text-align: center;
+    font-weight: bolder;
+}
+
+#booking-hall {
+    text-align: center;
+}
+
+#contact{
+    text-align: center;
+}
+
+.footer{
+    display: flex;  
+}
+.footer_color{
+    background-color: #eee; 
+}
+
+.footer .row .col{
+    display: flex;  
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .row .col-6 .item_footer h5{
+    font-size: 10px;    
+}
+
+#booking-hall .hall-show{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#booking-hall .hall-show .card {
+    justify-content: space-between;
+}
+
+.bookingpage{
+    display: flex;
+    flex-direction: row;
+}
+
+.bookingpage .bookingpage-form {
+    font-weight: bolder;
+}
