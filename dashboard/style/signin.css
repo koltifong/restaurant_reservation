@@ -3,12 +3,20 @@
   margin: 0;
 }
 
+html, body {
+  height:100%;
+  width:100%;
+  margin:0;
+}
 
 body {
-  background-image: url("/images/background-img.png");
+  background-image: url("dashboard/images/background-img.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+  display: flex;
 } 
 
-
+form {
+  margin:auto;/* nice thing of auto margin if display:flex; it center both horizontal and vertical :) */
+}
