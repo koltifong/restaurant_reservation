@@ -15,7 +15,7 @@ body {
 header {
     display: flex;
     flex-direction: row;
-    background-color: lightgrey;
+    background-color: #ffffff;
     width: 100%;
     justify-content: space-between;
 }
@@ -28,20 +28,9 @@ h5{
     font-weight:700 ;
 }
 
-/* Link style */
-#active {
-    text-decoration: underline;
-    text-decoration-color: red;
-}
-
 header .logo-name {
     display: flex;
     padding: 2%;
-}
-
-a {
-    color: #000000;
-    text-decoration: none;
 }
 
 header .logo-name #logo{
@@ -178,8 +167,4 @@ header #booking {
 
 .bookingpage .bookingpage-form {
     font-weight: bolder;
-}
-
-.carousel-inner {
-    margin-left: 5px;
 }
