@@ -20,3 +20,8 @@ body {
 form {
   margin:auto;/* nice thing of auto margin if display:flex; it center both horizontal and vertical :) */
 }
+@media only screen and (min-device-width: 428px) and (max-device-height: 926px) and (-webkit-device-pixel-ratio: 3) {
+  [class*="col-"] {
+      width: 100%;
+    }
+}
