@@ -29,7 +29,7 @@
                             <a href="#menu">Menu</a>
                         </li>
                         <li class="nav-link">
-                            <a id="active"  href="#hall">Hall</a>
+                            <a href="#hall">Hall</a>
                         </li>
                         <li class="nav-link">
                             <a href="#contact">Contact</a>
@@ -38,14 +38,14 @@
                 </div>
             </nav>
             <div class="logo-name">
-                <h2 style="font-weight:bolder ;">Booking</h2>
+                <a style="text-decoration: none;" href="index.html"><h2  id="active">History</h2></a>
             </div>
         </header>
         <!--Booking-->
         <section id="booking">
             <div class="booking-section">
                 <div class="text-booking">
-                    <h1 class="text-center">SELECT DATE AND TIME FOR YOUR RESERVATION</h1>
+                    <h1 class="text-center">History</h1>
                 </div>
                 <!-- Form -->
             <div class="bookingpage-form" style="width: 100%; padding: 2%;" >
@@ -57,12 +57,12 @@
                     <div class="col-2">
                       <label class="control-label" for="autoSizingInputGroup">Email:</label>
                       <div class="input-group">
-                        <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Email" required>
+                        <input type="email" class="form-control" id="autoSizingInputGroup" placeholder="Email" required>
                       </div>
                     </div>
                     <div class="col-2">
                         <label class="control-label" for="autoSizingInput">Phone number:</label>
-                        <input type="text" class="form-control" id="autoSizingInput" placeholder="Phone Number" required>
+                        <input type="text" class="form-control" id="autoSizingInput" placeholder="phone number" value="0" required>
                       </div>
                       <div class="col-2">
                         <label class="control-label" for="autoSizingInput">Date:</label>
@@ -73,29 +73,110 @@
                         <input type="time" class="form-control" value="09:41" required>
                       </div>
                       <div class="col-2">
-                        <label class="control-label" for="autoSizingInput">Number of people:</label>
-                        <input type="number" class="form-control" id="autoSizingInput" placeholder="Number of People" required>
+                        <label class="control-label" for="autoSizingInput">People:</label>
+                        <input type="number" class="form-control" id="autoSizingInput" placeholder="people" value="1" min="1" max="15" required>
                       </div>
                     <div class="col-2" style="align-self: right;">
-                        <button type="submit" class="btn btn-danger">Submit</button>
+                        <button type="submit" class="btn btn-outline-primary">Search</button>
                     </div>
                 </form>
             </div>
             <!--Booking Hall-->
-            <div class="booking-hall">
                 <div>
-                    <h1 class="text-center">My booking details</h1>
+                    <h1 style="font-size: 21px;" class="text-center">Booking History details</h1>
                 </div>
-                <div>
-                    <!-- <table id="booking-details" class="booking-details">
-                       <tr>
-                        <td><th>name</th></td>
-                       </tr>
-                       <tr>
-                        <td>name</td>
-                        <td>name</td>
-                    </tr>
-                    </table> -->
+            <div class="booking-hall">
+                <div class="booking table">
+                    <table style="width: 100%; padding: 2%;">
+                        <tr>
+                          <th>Name</th>
+                          <th>Email</th>
+                          <th>Phone number</th>
+                          <th>Date</th>
+                          <th>Time</th>
+                          <th>People</th>
+                        </tr>
+                        <tr>
+                          <td>User</td>
+                          <td>user@email.com</td>
+                          <td>+855 98 898 813</td>
+                          <td>17-April-2023</td>
+                          <td>9:41 AM</td>
+                          <td>5 people</td>
+                        </tr>
+                        <tr>
+                            <td>User</td>
+                            <td>user@email.com</td>
+                            <td>+855 98 898 813</td>
+                            <td>17-April-2023</td>
+                            <td>9:41 AM</td>
+                            <td>5 people</td>
+                          </tr>
+                          <tr>
+                            <td>User</td>
+                            <td>user@email.com</td>
+                            <td>+855 98 898 813</td>
+                            <td>17-April-2023</td>
+                            <td>9:41 AM</td>
+                            <td>5 people</td>
+                          </tr>
+                          <tr>
+                            <td>User</td>
+                            <td>user@email.com</td>
+                            <td>+855 98 898 813</td>
+                            <td>17-April-2023</td>
+                            <td>9:41 AM</td>
+                            <td>5 people</td>
+                          </tr>
+                          <tr>
+                            <td>User</td>
+                            <td>user@email.com</td>
+                            <td>+855 98 898 813</td>
+                            <td>17-April-2023</td>
+                            <td>9:41 AM</td>
+                            <td>5 people</td>
+                          </tr>
+                          <tr>
+                            <td>User</td>
+                            <td>user@email.com</td>
+                            <td>+855 98 898 813</td>
+                            <td>17-April-2023</td>
+                            <td>9:41 AM</td>
+                            <td>5 people</td>
+                          </tr>
+                          <tr>
+                            <td>User</td>
+                            <td>user@email.com</td>
+                            <td>+855 98 898 813</td>
+                            <td>17-April-2023</td>
+                            <td>9:41 AM</td>
+                            <td>5 people</td>
+                          </tr>
+                          <tr>
+                            <td>User</td>
+                            <td>user@email.com</td>
+                            <td>+855 98 898 813</td>
+                            <td>17-April-2023</td>
+                            <td>9:41 AM</td>
+                            <td>5 people</td>
+                          </tr>
+                          <tr>
+                            <td>User</td>
+                            <td>user@email.com</td>
+                            <td>+855 98 898 813</td>
+                            <td>17-April-2023</td>
+                            <td>9:41 AM</td>
+                            <td>5 people</td>
+                          </tr>
+                          <tr>
+                            <td>User</td>
+                            <td>user@email.com</td>
+                            <td>+855 98 898 813</td>
+                            <td>17-April-2023</td>
+                            <td>9:41 AM</td>
+                            <td>5 people</td>
+                          </tr>
+                      </table>
                 </div>
             </div>
         </div>   
